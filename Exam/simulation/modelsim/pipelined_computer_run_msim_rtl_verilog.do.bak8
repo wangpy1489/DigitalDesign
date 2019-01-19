@@ -1,0 +1,46 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/sevenseg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/sc_instmen.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/sc_datamem.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/sc_cu.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipepc.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipemwreg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipemem.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipelined_computer_main.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipeir.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipeif.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipeid.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipeexe.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipeemreg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/pipedereg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/out_port.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/mux4x32.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/mux2x32.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/mux2x5.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/lpm_rom_irom.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/lpm_ram_dq_dram.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/io_output_reg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/io_input_reg.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/in_port.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/dffe32.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/dff32.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/cla32.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new/source {C:/Learning/DigitalDesign/LAB3_new/source/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new {C:/Learning/DigitalDesign/LAB3_new/clock_and_memclock.v}
+
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new {C:/Learning/DigitalDesign/LAB3_new/pipe_main_sim.v}
+vlog -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB3_new {C:/Learning/DigitalDesign/LAB3_new/pipelined_computer.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  pipe_main_sim
+
+add wave *
+view structure
+view signals
+run -all

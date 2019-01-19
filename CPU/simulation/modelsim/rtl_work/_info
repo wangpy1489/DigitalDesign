@@ -1,0 +1,445 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Learning\DigitalDesign\LAB2\simulation\modelsim
+valu
+I;ogHf60ohD^aZM9]Tz]1n2
+VKc:bVz32gc5X2ZbjUde9O3
+Z1 dC:\Learning\DigitalDesign\LAB2\simulation\modelsim
+w1543234309
+8C:/Learning/DigitalDesign/LAB2/source/alu.v
+FC:/Learning/DigitalDesign/LAB2/source/alu.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB2/source -O0
+!i10b 1
+!s100 b[<AY5jQR;n]]lBVeIb=03
+!s85 0
+!s108 1543387481.815000
+!s107 C:/Learning/DigitalDesign/LAB2/source/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/alu.v|
+!s101 -O0
+vcpu_clk
+I5^S5oKjIU75o1WQ4c<i5I0
+V^S5nlQhYcl`i;BOkkWTIo0
+R1
+w1543328392
+8C:/Learning/DigitalDesign/LAB2/cpu_clk.v
+FC:/Learning/DigitalDesign/LAB2/cpu_clk.v
+L0 1
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+C:/Learning/DigitalDesign/LAB2 -O0
+!i10b 1
+!s100 G1`?>VjU5VAi<MkAndiU42
+!s85 0
+!s108 1543387479.015000
+!s107 C:/Learning/DigitalDesign/LAB2/cpu_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2|C:/Learning/DigitalDesign/LAB2/cpu_clk.v|
+!s101 -O0
+vdff32
+I0Wek1klzZZfJK2iP27Xzj3
+VUO7_EzIi9>SeN7M;XG9<c0
+R1
+w1305031718
+8C:/Learning/DigitalDesign/LAB2/source/dff32.v
+FC:/Learning/DigitalDesign/LAB2/source/dff32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 0gZ=iPPjKENXX9AZX@QDZ0
+!s85 0
+!s108 1543387481.667000
+!s107 C:/Learning/DigitalDesign/LAB2/source/dff32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/dff32.v|
+!s101 -O0
+vin_port
+Ic8=1S4T=XhR79m]`;OeHf0
+VYa7dUSlUg;?MYS[HMgHNh0
+R1
+w1543327609
+8C:/Learning/DigitalDesign/LAB2/in_port.v
+FC:/Learning/DigitalDesign/LAB2/in_port.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 6_XEnOgJRN<K>5BUfTEZO1
+!s85 0
+!s108 1543387482.438000
+!s107 C:/Learning/DigitalDesign/LAB2/in_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2|C:/Learning/DigitalDesign/LAB2/in_port.v|
+!s101 -O0
+vio_input_mux
+I2c_6G1zJ5J4@G6h@B`?663
+VE]W_C0AC;VoBAl[RC@dLB2
+R1
+Z6 w1543327158
+Z7 8C:/Learning/DigitalDesign/LAB2/source/io_input_reg.v
+Z8 FC:/Learning/DigitalDesign/LAB2/source/io_input_reg.v
+L0 16
+R2
+r1
+31
+Z9 !s108 1543387482.227000
+Z10 !s107 C:/Learning/DigitalDesign/LAB2/source/io_input_reg.v|
+Z11 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/io_input_reg.v|
+R3
+R4
+!i10b 1
+!s100 S=jBknPXOzjWH38JdEInY1
+!s85 0
+!s101 -O0
+vio_input_reg
+IVo^Gk[QoA>JMH01WaU:<N1
+Va`W>ea3e2a]BE_LJo_3@V1
+R1
+R6
+R7
+R8
+L0 1
+R2
+r1
+31
+R9
+R10
+R11
+R3
+R4
+!i10b 1
+!s100 g?A>lBjU9FZ6Gfe550c8S2
+!s85 0
+!s101 -O0
+vio_output_reg
+ILEMg[[3K7bT5B5BY_?Nf92
+V?f=h:WaAWKdngnaa?QSJj2
+R1
+w1543331771
+8C:/Learning/DigitalDesign/LAB2/source/io_output_reg.v
+FC:/Learning/DigitalDesign/LAB2/source/io_output_reg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;Oe>88nFWi9geZ5CHV:oF0
+!s85 0
+!s108 1543387481.981000
+!s107 C:/Learning/DigitalDesign/LAB2/source/io_output_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/io_output_reg.v|
+!s101 -O0
+vlpm_ram_dq_dram
+IT2Qo`DiGTcg4QgBS5ATNz3
+V;^>UgMFOjF@EZ@A<NMAW`0
+R1
+w1543336067
+8C:/Learning/DigitalDesign/LAB2/source/lpm_ram_dq_dram.v
+FC:/Learning/DigitalDesign/LAB2/source/lpm_ram_dq_dram.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 7S36iQTn_fJ4mi86C_6C01
+!s85 0
+!s108 1543387481.498000
+!s107 C:/Learning/DigitalDesign/LAB2/source/lpm_ram_dq_dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/lpm_ram_dq_dram.v|
+!s101 -O0
+vlpm_rom_irom
+IWQ<0i_TOoHT4N0FKgfnk22
+V6I?:oUA0HYdli42?U:6:L0
+R1
+w1543336076
+8C:/Learning/DigitalDesign/LAB2/source/lpm_rom_irom.v
+FC:/Learning/DigitalDesign/LAB2/source/lpm_rom_irom.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 oeLk2lAjoIX2859DCiSGS0
+!s85 0
+!s108 1543387481.280000
+!s107 C:/Learning/DigitalDesign/LAB2/source/lpm_rom_irom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/lpm_rom_irom.v|
+!s101 -O0
+vmem_clock
+IaACIeNeKg>d0PhoYjFT@m3
+VhPUJb^Y7iTnR8Zc?]ga6U0
+R1
+w1543328234
+8C:/Learning/DigitalDesign/LAB2/mem_clk.v
+FC:/Learning/DigitalDesign/LAB2/mem_clk.v
+L0 2
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 eRlnVH^k=N06zNoG4LPZg3
+!s85 0
+!s108 1543387479.230000
+!s107 C:/Learning/DigitalDesign/LAB2/mem_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2|C:/Learning/DigitalDesign/LAB2/mem_clk.v|
+!s101 -O0
+vmux2x32
+I3IQ1Oc2c2OXzBbB`n3oSm3
+V_8o=]o8CzEDeX@^n?a@zP3
+R1
+w1252908544
+8C:/Learning/DigitalDesign/LAB2/source/mux2x32.v
+FC:/Learning/DigitalDesign/LAB2/source/mux2x32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]7H1e2`8M^h^D_e22LaID2
+!s85 0
+!s108 1543387480.860000
+!s107 C:/Learning/DigitalDesign/LAB2/source/mux2x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/mux2x32.v|
+!s101 -O0
+vmux2x5
+I<7OEGkZTlN1mEVPb:B7f=2
+Vah3g>_]Y^Qz2GXD7HR^<<3
+R1
+w1253170143
+8C:/Learning/DigitalDesign/LAB2/source/mux2x5.v
+FC:/Learning/DigitalDesign/LAB2/source/mux2x5.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 @i]<GE@YX:?^TCKE_5H5[0
+!s85 0
+!s108 1543387481.110000
+!s107 C:/Learning/DigitalDesign/LAB2/source/mux2x5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/mux2x5.v|
+!s101 -O0
+vmux4x32
+IidzCznSQ?<MAI2^L5_o0X1
+VM:hYY`k:C]4^:^k7d8C]M0
+R1
+w1252998688
+8C:/Learning/DigitalDesign/LAB2/source/mux4x32.v
+FC:/Learning/DigitalDesign/LAB2/source/mux4x32.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 i=Xch?>mPRM4?ZX2bVRzi3
+!s85 0
+!s108 1543387480.596000
+!s107 C:/Learning/DigitalDesign/LAB2/source/mux4x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/mux4x32.v|
+!s101 -O0
+vout_port
+I@[V=`A5502PT?LJEJRf[O3
+VeL:LKGI;Un]G2Gz3GkRBD0
+R1
+w1543327676
+8C:/Learning/DigitalDesign/LAB2/out_port.v
+FC:/Learning/DigitalDesign/LAB2/out_port.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 8ZIYNOnLCh7n]j2:16H_<0
+!s85 0
+!s108 1543387482.631000
+!s107 C:/Learning/DigitalDesign/LAB2/out_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2|C:/Learning/DigitalDesign/LAB2/out_port.v|
+!s101 -O0
+vregfile
+I`iFXodYe:a3RY;i[i@Pjb0
+VHL?YD<z4Tlb1gm`0^XW@D2
+R1
+w1543245902
+8C:/Learning/DigitalDesign/LAB2/source/regfile.v
+FC:/Learning/DigitalDesign/LAB2/source/regfile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >Nc[bkC8S3We<;^0R12_Y0
+!s85 0
+!s108 1543387480.348000
+!s107 C:/Learning/DigitalDesign/LAB2/source/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/regfile.v|
+!s101 -O0
+vsc_computer_main
+Ie:?z7S4am75c=Y=fRIDHf2
+VCnA08XfdFabAOYn6zaG<R0
+R1
+w1543329398
+8C:/Learning/DigitalDesign/LAB2/source/sc_computer_main.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_computer_main.v
+L0 7
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 5QD1A2E[5cIinZAzIhW_V2
+!s85 0
+!s108 1543387478.770000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_computer_main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_computer_main.v|
+!s101 -O0
+vsc_computer_sim
+!i10b 1
+!s100 Ba`Cg=A9ahACNf>QJgD@93
+Ij`5[e<[C0eR8l0;8nL6WZ0
+V^jiC<6F7]doek[nRMoOol1
+R1
+w1543370403
+8C:/Learning/DigitalDesign/LAB2/source/sc_computer_sim.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_computer_sim.v
+L0 26
+R2
+r1
+!s85 0
+31
+!s108 1543387482.950000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_computer_sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_computer_sim.v|
+!s101 -O0
+R3
+R4
+vsc_cpu
+IeckCLObXG591J>V1W4elm2
+V:mi8;^<LZUMNBc_]kEVbj2
+R1
+w1543245816
+8C:/Learning/DigitalDesign/LAB2/source/sc_cpu.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_cpu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 AzDT@^_?nbh:l33@J^1HY2
+!s85 0
+!s108 1543387480.097000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_cpu.v|
+!s101 -O0
+vsc_cu
+IXiA6KJFePgWeQe7:<FCYk2
+VAlN72Pg@l_c4ao;V0co7c3
+R1
+w1543243485
+8C:/Learning/DigitalDesign/LAB2/source/sc_cu.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_cu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 83F?<UFD>z]KK2[I?AC@^3
+!s85 0
+!s108 1543387479.831000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_cu.v|
+!s101 -O0
+vsc_datamem
+I>HQLR3H4Z`MUoVT?C_o;M1
+VRzo51LE[eY:;>5jFDJh[P0
+R1
+w1543329162
+8C:/Learning/DigitalDesign/LAB2/source/sc_datamem.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_datamem.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ddY0S>lIVMQZLPPBdkAm>2
+!s85 0
+!s108 1543387479.605000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_datamem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_datamem.v|
+!s101 -O0
+vsc_instmem
+IR>`3>5XE<e8`2bbD4zHba0
+VkU`UIUgSeP=c3TJLN64XO2
+R1
+w1305084523
+8C:/Learning/DigitalDesign/LAB2/source/sc_instmen.v
+FC:/Learning/DigitalDesign/LAB2/source/sc_instmen.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 B[NToahIOIO`eHI[]IUK41
+!s85 0
+!s108 1543387479.436000
+!s107 C:/Learning/DigitalDesign/LAB2/source/sc_instmen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2/source|C:/Learning/DigitalDesign/LAB2/source/sc_instmen.v|
+!s101 -O0
+vsevenseg
+IY]K]WU4zMnUBGzz7?DoIP3
+V<kz4<ET@H::]Aoef`6B9U3
+R1
+w1543327863
+8C:/Learning/DigitalDesign/LAB2/sevenseg.v
+FC:/Learning/DigitalDesign/LAB2/sevenseg.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 mB`]CcZ;]:AFFQg:5W6F=1
+!s85 0
+!s108 1543387482.792000
+!s107 C:/Learning/DigitalDesign/LAB2/sevenseg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Learning/DigitalDesign/LAB2|C:/Learning/DigitalDesign/LAB2/sevenseg.v|
+!s101 -O0
